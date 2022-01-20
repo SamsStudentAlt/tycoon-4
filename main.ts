@@ -65,3 +65,5 @@ let Character = sprites.create(img`
     ................................................................
     `, SpriteKind.Player)
 scene.setBackgroundColor(1)
+controller.moveSprite(Character)
+Character.setStayInScreen(true)
